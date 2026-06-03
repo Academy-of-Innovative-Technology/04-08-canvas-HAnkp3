@@ -1,13 +1,13 @@
-//THE ARC METHOD
-//CODE FOR STEP 4 GOES HERE
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.arc(100, 100, 20, 0, Math.PI);
+ctx.stroke();
 
 
+ctx.rect(80, 30, 150, 100);
+ctx.stroke();
 
 
-//THE RECT METHOD
-//CODE FOR STEP 8 GOES HERE
-
-
-
-//THE FONT METHOD
-//CODE FOR STEP 12 GOES HERE
+ctx.font = "30px Arial";
+ctx.strokeText("Hello Canvas!", 40, 250);
